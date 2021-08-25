@@ -1,3 +1,4 @@
+import { isEmail } from "class-validator";
 import { Mutation, Resolver, Arg, Query, Int, Field, InputType } from "type-graphql";
 import { Product } from "../entity/product";
 
